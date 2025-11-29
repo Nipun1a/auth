@@ -38,7 +38,7 @@ app.get('/post/create', async function(req, res){
     await user.save();
     res.send(post, user);
 });
-
+// data associations todha kaam samajh aya ha work on it more
 
 app.listen(3000, function(){
     console.log('Server is running on port 3000');
